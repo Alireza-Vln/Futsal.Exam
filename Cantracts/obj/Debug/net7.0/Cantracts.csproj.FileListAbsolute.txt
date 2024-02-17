@@ -1,0 +1,12 @@
+E:\alireza.code\EX.Library\FutsalTeam\Cantracts\bin\Debug\net7.0\Cantracts.deps.json
+E:\alireza.code\EX.Library\FutsalTeam\Cantracts\bin\Debug\net7.0\Cantracts.dll
+E:\alireza.code\EX.Library\FutsalTeam\Cantracts\bin\Debug\net7.0\Cantracts.pdb
+E:\alireza.code\EX.Library\FutsalTeam\Cantracts\obj\Debug\net7.0\Cantracts.csproj.AssemblyReference.cache
+E:\alireza.code\EX.Library\FutsalTeam\Cantracts\obj\Debug\net7.0\Cantracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\alireza.code\EX.Library\FutsalTeam\Cantracts\obj\Debug\net7.0\Cantracts.AssemblyInfoInputs.cache
+E:\alireza.code\EX.Library\FutsalTeam\Cantracts\obj\Debug\net7.0\Cantracts.AssemblyInfo.cs
+E:\alireza.code\EX.Library\FutsalTeam\Cantracts\obj\Debug\net7.0\Cantracts.csproj.CoreCompileInputs.cache
+E:\alireza.code\EX.Library\FutsalTeam\Cantracts\obj\Debug\net7.0\Cantracts.dll
+E:\alireza.code\EX.Library\FutsalTeam\Cantracts\obj\Debug\net7.0\refint\Cantracts.dll
+E:\alireza.code\EX.Library\FutsalTeam\Cantracts\obj\Debug\net7.0\Cantracts.pdb
+E:\alireza.code\EX.Library\FutsalTeam\Cantracts\obj\Debug\net7.0\ref\Cantracts.dll

@@ -1,0 +1,17 @@
+E:\alireza.code\EX.Library\FutsalTeam\futsal.Services\bin\Debug\net7.0\FutsalTeam.Services.deps.json
+E:\alireza.code\EX.Library\FutsalTeam\futsal.Services\bin\Debug\net7.0\FutsalTeam.Services.dll
+E:\alireza.code\EX.Library\FutsalTeam\futsal.Services\bin\Debug\net7.0\FutsalTeam.Services.pdb
+E:\alireza.code\EX.Library\FutsalTeam\futsal.Services\bin\Debug\net7.0\FutsalTeam.Entities.dll
+E:\alireza.code\EX.Library\FutsalTeam\futsal.Services\bin\Debug\net7.0\FutsalTeam.Entities.pdb
+E:\alireza.code\EX.Library\FutsalTeam\futsal.Services\obj\Debug\net7.0\FutsalTeam.Services.csproj.AssemblyReference.cache
+E:\alireza.code\EX.Library\FutsalTeam\futsal.Services\obj\Debug\net7.0\FutsalTeam.Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\alireza.code\EX.Library\FutsalTeam\futsal.Services\obj\Debug\net7.0\FutsalTeam.Services.AssemblyInfoInputs.cache
+E:\alireza.code\EX.Library\FutsalTeam\futsal.Services\obj\Debug\net7.0\FutsalTeam.Services.AssemblyInfo.cs
+E:\alireza.code\EX.Library\FutsalTeam\futsal.Services\obj\Debug\net7.0\FutsalTeam.Services.csproj.CoreCompileInputs.cache
+E:\alireza.code\EX.Library\FutsalTeam\futsal.Services\obj\Debug\net7.0\FutsalTeam.Services.csproj.CopyComplete
+E:\alireza.code\EX.Library\FutsalTeam\futsal.Services\obj\Debug\net7.0\FutsalTeam.Services.dll
+E:\alireza.code\EX.Library\FutsalTeam\futsal.Services\obj\Debug\net7.0\refint\FutsalTeam.Services.dll
+E:\alireza.code\EX.Library\FutsalTeam\futsal.Services\obj\Debug\net7.0\FutsalTeam.Services.pdb
+E:\alireza.code\EX.Library\FutsalTeam\futsal.Services\obj\Debug\net7.0\ref\FutsalTeam.Services.dll
+E:\alireza.code\EX.Library\FutsalTeam\futsal.Services\bin\Debug\net7.0\Cantracts.dll
+E:\alireza.code\EX.Library\FutsalTeam\futsal.Services\bin\Debug\net7.0\Cantracts.pdb

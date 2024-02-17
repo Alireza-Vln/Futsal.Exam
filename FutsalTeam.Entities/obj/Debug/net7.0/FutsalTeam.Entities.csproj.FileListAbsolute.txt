@@ -1,0 +1,12 @@
+E:\alireza.code\EX.Library\FutsalTeam\FutsalTeam.Entities\bin\Debug\net7.0\FutsalTeam.Entities.deps.json
+E:\alireza.code\EX.Library\FutsalTeam\FutsalTeam.Entities\bin\Debug\net7.0\FutsalTeam.Entities.dll
+E:\alireza.code\EX.Library\FutsalTeam\FutsalTeam.Entities\bin\Debug\net7.0\FutsalTeam.Entities.pdb
+E:\alireza.code\EX.Library\FutsalTeam\FutsalTeam.Entities\obj\Debug\net7.0\FutsalTeam.Entities.csproj.AssemblyReference.cache
+E:\alireza.code\EX.Library\FutsalTeam\FutsalTeam.Entities\obj\Debug\net7.0\FutsalTeam.Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\alireza.code\EX.Library\FutsalTeam\FutsalTeam.Entities\obj\Debug\net7.0\FutsalTeam.Entities.AssemblyInfoInputs.cache
+E:\alireza.code\EX.Library\FutsalTeam\FutsalTeam.Entities\obj\Debug\net7.0\FutsalTeam.Entities.AssemblyInfo.cs
+E:\alireza.code\EX.Library\FutsalTeam\FutsalTeam.Entities\obj\Debug\net7.0\FutsalTeam.Entities.csproj.CoreCompileInputs.cache
+E:\alireza.code\EX.Library\FutsalTeam\FutsalTeam.Entities\obj\Debug\net7.0\FutsalTeam.Entities.dll
+E:\alireza.code\EX.Library\FutsalTeam\FutsalTeam.Entities\obj\Debug\net7.0\refint\FutsalTeam.Entities.dll
+E:\alireza.code\EX.Library\FutsalTeam\FutsalTeam.Entities\obj\Debug\net7.0\FutsalTeam.Entities.pdb
+E:\alireza.code\EX.Library\FutsalTeam\FutsalTeam.Entities\obj\Debug\net7.0\ref\FutsalTeam.Entities.dll

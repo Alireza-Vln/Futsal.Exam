@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "FutsalTeam.Services/1.0.0": {
+        "dependencies": {
+          "Cantracts": "1.0.0",
+          "FutsalTeam.Entities": "1.0.0"
+        },
+        "runtime": {
+          "FutsalTeam.Services.dll": {}
+        }
+      },
+      "Cantracts/1.0.0": {
+        "runtime": {
+          "Cantracts.dll": {}
+        }
+      },
+      "FutsalTeam.Entities/1.0.0": {
+        "runtime": {
+          "FutsalTeam.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FutsalTeam.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Cantracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FutsalTeam.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
