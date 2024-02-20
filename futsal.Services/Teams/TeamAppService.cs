@@ -48,10 +48,7 @@ namespace FutsalTeam.Services.Teams
 
         }
 
-        public async Task<List<Team>> GetAllTeam()
-        {
-           return _repository.GetAllTeams();
-        }
+   
 
         public async Task Update(UpdateTeamDto dto,int id)
         {
@@ -67,6 +64,18 @@ namespace FutsalTeam.Services.Teams
             team.MainColor = dto.MainColor;
             team.SecondaryColor = dto.SecondaryColor;
             await _unitOfWork.Complete();
+        }
+
+      public  async Task<List<GetTeamDto>> GetAllTeam(TeamFilterDto? filterDto)
+        {
+
+            var team = (_repository.GetAllTeams(filterDto));
+            if (team == null)
+            {
+                throw new Exception("NNNNUUULLLLLLL");
+
+            }
+            return team;
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using FutsalTeam.Entities;
 using FutsalTeam.Services.Players.Cantarcts;
+using FutsalTeam.Services.Players.Cantarcts.Dtos;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace FutsalTeam.Persistanc.Players
 {
-    public class EFPlayersRepository:PlayersRepository
+    public class EFPlayersRepository:PlayerRepository
     {
         readonly EFDataContext _context;
         public EFPlayersRepository(EFDataContext context)
@@ -27,14 +28,20 @@ namespace FutsalTeam.Persistanc.Players
             _context.Remove(player);   
         }
 
-        public List<Player> GetAll()
+        public List<GetPlayersDto> GetAllPlayers()
         {
-            return _context.Players.ToList();
-        }
 
-        public List<Player> GetAllPlayers()
-        {
-            throw new NotImplementedException();
+            return _context.Set<Player>().Include(_ => _.Team).Select(_ => new GetPlayersDto
+            {
+                Id = _.Id,
+                FirstName = _.FirstName,
+                LastName = _.LastName,
+                TeamName = _.Team.TeamName,
+                Age=(DateTime.UtcNow - _.Age).Days/365
+
+
+
+            }).ToList();
         }
 
         public Player IsExistPlayer(int id)
@@ -46,5 +53,7 @@ namespace FutsalTeam.Persistanc.Players
         {
             return _context.Teams.FirstOrDefault(_ => _.Id == id);
         }
+
+     
     }
 }

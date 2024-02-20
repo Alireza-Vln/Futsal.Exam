@@ -12,9 +12,9 @@ namespace FutsalTeam.Services.Players
 {
     public class PlayerAppService : PlayersServices
     {
-        readonly PlayersRepository _repository;
+        readonly PlayerRepository _repository;
         readonly UnitOfWork _unitOfWork;
-        public PlayerAppService(PlayersRepository repository,UnitOfWork unitOfWork)
+        public PlayerAppService(PlayerRepository repository,UnitOfWork unitOfWork)
         {
             _repository= repository;
             _unitOfWork= unitOfWork;
@@ -28,10 +28,12 @@ namespace FutsalTeam.Services.Players
                 FirstName = dto.FristName,
                 LastName = dto.LastName,
                 Age = dto.Age,
-                Team = team,
+                Team=team,
                 TeamId = team.Id
+                
 
             };
+            team.players.Add(player);
             _repository.AddPlayer(player); 
             await _unitOfWork.Complete();
         }
@@ -41,6 +43,11 @@ namespace FutsalTeam.Services.Players
             var player = _repository.IsExistPlayer(id);
              _repository.DeletePlayer(player);
          await  _unitOfWork.Complete();
+        }
+
+        public async Task<List<GetPlayersDto>> GetPlayers()
+        {
+            return _repository.GetAllPlayers();
         }
     }
 }

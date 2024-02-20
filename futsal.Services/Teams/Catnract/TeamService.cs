@@ -11,7 +11,7 @@ namespace FutsalTeam.Services.Teams.Catnract
     public interface TeamService
     {
         public Task AddTeam(AddTeamDto dto);
-        public Task<List<Team>>GetAllTeam();
+        public Task <List<GetTeamDto>> GetAllTeam(TeamFilterDto? filterDto);
         public Task DeleteTeam(int id);
         public Task Update(UpdateTeamDto dto,int id);
     }

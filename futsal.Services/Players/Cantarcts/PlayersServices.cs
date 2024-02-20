@@ -12,5 +12,6 @@ namespace FutsalTeam.Services.Players.Cantarcts
     {
         public Task DeletePlayer(int id);
         public Task AddPlayers(AddPlayersDto dto,int id);
+        public Task<List<GetPlayersDto>> GetPlayers(); 
     }
 }

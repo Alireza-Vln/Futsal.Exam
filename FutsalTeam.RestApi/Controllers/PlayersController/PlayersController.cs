@@ -27,6 +27,11 @@ namespace FutsalTeam.RestApi.Controllers.PlayersController
         {
             await _service.DeletePlayer(id);
         }
+        [HttpGet]
+        public async Task<List<GetPlayersDto>> GetPlayers()
+        {
+           return await _service.GetPlayers();
+        }
 
     }
 }

@@ -18,7 +18,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<EFDataContext>();
 builder.Services.AddScoped<TeamRepository, EFTeamRepository>();
 builder.Services.AddScoped<TeamService, TeamAppService>();
-builder.Services.AddScoped<PlayersRepository, EFPlayersRepository>();
+builder.Services.AddScoped<PlayerRepository, EFPlayersRepository>();
 builder.Services.AddScoped<PlayersServices, PlayerAppService>();
 builder.Services.AddScoped<UnitOfWork, EFUnitOfWork>();
 

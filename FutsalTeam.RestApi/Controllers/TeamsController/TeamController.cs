@@ -26,9 +26,9 @@ namespace FutsalTeam.RestApi.Controllers.TeamsController
            await _service.DeleteTeam(id);
         }
         [HttpGet("AllTeam")]
-        public async Task<List<Team>> GetAllTeam()
+        public async Task<List<GetTeamDto>> GetAllTeam([FromQuery]TeamFilterDto? filterDto)
         {
-            return await _service.GetAllTeam();
+            return await _service.GetAllTeam(filterDto);
         }
         [HttpPatch]
         public async Task UpdateTeam([FromHeader]int id, [FromBody]UpdateTeamDto dto)

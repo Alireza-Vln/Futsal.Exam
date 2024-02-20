@@ -1,5 +1,6 @@
 ﻿using FutsalTeam.Entities;
 using FutsalTeam.Services.Teams.Catnract;
+using FutsalTeam.Services.Teams.Catnract.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,10 +28,7 @@ namespace FutsalTeam.Persistanc.Teams
              _context.Remove(team);
         }
 
-        public List<Team> GetAllTeams()
-        {
-           return _context.Teams.ToList();
-        }
+       
 
      
 
@@ -45,6 +43,33 @@ namespace FutsalTeam.Persistanc.Teams
           return  _context.Teams.Any(_ => _.TeamName == teamName);
         }
 
-       
+      public List<GetTeamDto> GetAllTeams(TeamFilterDto? filterDto)
+        {
+
+            var team = _context.Teams.Select(_ => new GetTeamDto
+            {
+                Id = _.Id,
+                TeamName = _.TeamName,
+                SecondaryColor = _.SecondaryColor,
+                MainColor = _.MainColor,
+                Players=_.players,
+                
+            }).ToList();
+            if (filterDto.Id != null)
+            {
+                team=team.Where(_=>_.Id==filterDto.Id).ToList();
+            }
+            if (filterDto.TeamName!=null)
+            {
+                team=team.Where(_=>_.TeamName.Contains(filterDto.TeamName)).ToList();
+            }
+            if (filterDto.Color != null)
+            {
+                team=team.Where(_=>_.MainColor==filterDto.Color ||
+                 _.SecondaryColor==filterDto.Color).ToList();  
+            }
+
+            return team.ToList();
+        }
     }
 }
